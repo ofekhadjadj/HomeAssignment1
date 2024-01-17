@@ -1,0 +1,69 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+#sec1 {
+  background-color: #90ddf0;
+}
+#sec2 {
+  background-color: #2c666e;
+}
+#sec3 {
+  background-color: #07393c;
+}
+
+#sec4 {
+  background-color: #f0edee;
+}
+
+#sec5 {
+  background-color: #0a090c;
+}
+section:nth-child(-n + 6) {
+  height: 100vh;
+}
+
+section:nth-child(3),
+section:nth-child(4),
+section:nth-child(6) {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  gap: 7px;
+}
+
+.flex-container-sec {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.flex-container-sec img {
+  width: 35%;
+}
+
+.flex-container-sec div {
+  text-align: left;
+  width: 500px;
+  font-weight: 300;
+}
+
+.flex-container img {
+  width: 150px;
+}
+
+.card {
+  width: 200px;
+  height: 320px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+footer {
+  background-image: url("fruit-delivered-scaled.jpg");
+}
